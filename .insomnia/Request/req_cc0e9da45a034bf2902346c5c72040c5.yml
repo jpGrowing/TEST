@@ -1,0 +1,92 @@
+_id: req_cc0e9da45a034bf2902346c5c72040c5
+type: Request
+parentId: fld_3d46db2450e643f4a79748acfeb12514
+modified: 1665435078294
+created: 1665098864868
+url: ""
+name: Insert-Bill
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"documentType": "01",
+    	"activityCode": "172101",
+    	"userId": 1,
+    	"terminalId": 1,
+    	"sucursalId": 1,
+    	"consecutive": "00100001010000000312",
+    	"saleDate": "2022-10-07T15:38:03.132+00:00",
+    	"key": "50601092200010244007700100001010000000312159086241",
+    	"taxpayerName": "Vilma Corella Artavia",
+    	"taxpayerIdNumber": "102440077",
+    	"taxpayerIdType": "01",
+    	"taxpayerTradename": "Modas Laura",
+    	"taxpayerProvinceId": "1",
+    	"taxpayerCantonId": "01",
+    	"taxpayerDistrictId": "16",
+    	"taxpayerNeighborhoodId": "14",
+    	"taxpayerOtherSigns": "Barrio El Cocal",
+    	"taxpayerPhoneCode": 506,
+    	"taxpayerPhoneNumber": 89890512,
+    	"taxpayerFaxCode": 0,
+    	"taxpayerFaxNumber": 0,
+    	"taxpayerEmail": "chepelcr@outlook.com",
+    	"receiverName": "Corporacion de Supermercados Unidos",
+    	"receiverIdNumber": "3102007223",
+    	"receiverIdType": "03",
+    	"receiverTradename": "Wal-Mart",
+    	"receiverProvinceId": "1",
+    	"receiverCantonId": "01",
+    	"receiverDistrictId": "16",
+    	"receiverNeighborhoodId": "14",
+    	"receiverOtherSigns": "Coyol",
+    	"receiverPhoneCode": 506,
+    	"receiverPhoneNumber": 99999925,
+    	"receiverFaxCode": 0,
+    	"receiverFaxNumber": 0,
+    	"receiverEmail": "chepelcr70@gmail.com",
+    	"saleCondition": "01",
+    	"creditTerm": "0",
+    	"changeType": 1.0,
+    	"changeCode": "CRC",
+    	"taxedServices": 0.0,
+    	"taxFreeServices": 0.0,
+    	"taxExemptServices": 0.0,
+    	"taxedMerchandise": 124188.0,
+    	"taxFreeMerchandise": 0.0,
+    	"taxExemptMerchandise": 0.0,
+    	"taxedTotal": 124188.0,
+    	"taxFreeTotal": 0.0,
+    	"taxExemptTotal": 0.0,
+    	"saleTotal": 124188.0,
+    	"discountTotal": 3726.0,
+    	"netTotal": 120462.0,
+    	"taxTotal": 15660.0,
+    	"returnedTax": null,
+    	"otherCharges": null,
+    	"voucherTotal": 136122.0,
+    	"annotations": "Notas varias",
+    	"documentState": 3,
+    	"documentSendDate": null,
+    	"receiverState": 0,
+    	"receiverValidationDate": null,
+    	"atvState": 1,
+    	"atvDetail": null,
+    	"atvSendDate": null,
+    	"atvValidationDate": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664397915879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

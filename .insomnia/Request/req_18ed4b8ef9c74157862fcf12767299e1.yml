@@ -1,0 +1,53 @@
+_id: req_18ed4b8ef9c74157862fcf12767299e1
+type: Request
+parentId: fld_27ad4356c2f14d66856f1a12532ee81d
+modified: 1665412616435
+created: 1663705766002
+url: http://localhost:8080/hacienda/auth/
+name: InsertTaxpayerAuth
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: taxpayerId
+      value: "123456789"
+      id: pair_7e0ef0e6b3094c7a96c17652e08b4248
+    - id: pair_d1c2d1f5c319444fa1d166c58d091035
+      name: username
+      value: cpf-01-0244-0077@stag.comprobanteselectronicos.go.cr
+      description: ""
+    - id: pair_29d8364816ec4fefb46df2f2d4b729ff
+      name: password
+      value: xj|;yPt/.r8o+V2Vhq^=
+      description: ""
+      type: text
+      multiline: false
+    - id: pair_4873ec06c3c04f49aabd9e1a34186bed
+      name: certificateFile
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/jcampos/my_web_pages/core-facturacion/public/files/010244007735_prod.p12
+    - id: pair_dbde584408194250aab880e4084a7928
+      name: pin
+      value: "6866"
+      description: ""
+    - id: pair_83cd5beb64d648edac283629112ecebd
+      name: id
+      value: "102440077"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_e4d4b9abfb174f658af424b2ca97c2b2
+authentication: {}
+metaSortKey: -1663693053354
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,67 @@
+_id: req_08bf568f269249a4876754b43b4d832f
+type: Request
+parentId: fld_3d46db2450e643f4a79748acfeb12514
+modified: 1665435184209
+created: 1665090331149
+url: http://localhost:8080/hacienda/notification/
+name: Insert-Ticket
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"documentType": "04",
+    	"activityCode": "172101",
+    	"userId": 1,
+    	"terminalId": 1,
+    	"sucursalId": 1,
+    	"consecutive": "00100009010000000062",
+    	"key":"50616092200010244007700100009010000000062108296315",
+    	"taxpayerName":"Vilma Corella Artavia",
+    	"taxpayerIdType":"01",
+    	"taxpayerTradename":"Modas Laura",
+    	"taxpayerIdNumber":"102440077",
+    	"taxpayerProvinceId":"1",
+    	"taxpayerCantonId":"01",
+    	"taxpayerDistrictId":"16",
+    	"taxpayerNeighborhoodId":"14",
+    	"taxpayerOtherSigns":"Barrio El Cocal",
+    	"taxpayerPhoneCode":506,
+    	"taxpayerPhoneNumber":89890512,
+    	"taxpayerEmail":"vilmacorella@yahoo.com",
+    	"saleCondition":"01",
+    	"creditTerm":"0",
+    	"changeType":1,
+    	"changeCode":"CRC",
+    	"taxedServices":0,
+    	"taxFreeServices":0,
+    	"taxExemptServices": 0,
+    	"taxedMerchandise":32945,
+    	"taxFreeMerchandise":0,
+    	"taxExemptMerchandise":0,
+    	"taxedTotal":32945,
+    	"taxFreeTotal":0,
+    	"taxExemptTotal":0,
+    	"saleTotal":32945,
+    	"discountTotal":0,
+    	"netTotal":32945,
+    	"taxTotal": 4282,
+    	"voucherTotal":37227,
+    	"annotations":"Notas varias",
+    	"documentState":3,
+    	"atvState":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664397915829
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

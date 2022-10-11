@@ -1,0 +1,48 @@
+_id: req_5583d186bfee477da7f26506118761fa
+type: Request
+parentId: fld_27ad4356c2f14d66856f1a12532ee81d
+modified: 1664822549818
+created: 1663705735675
+url: http://localhost:8080/hacienda/auth/102440077
+name: UpdateTaxpayerAuth
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_27afbafbd09f41ae926362fdcb375178
+      name: username
+      value: cpf-01-0244-0077@stag.comprobanteselectronicos.go.cr
+      description: ""
+    - id: pair_bd20772fb26549b4be7c889b55844af5
+      name: password
+      value: xj|;yPt/.r8o+V2Vhq^
+      description: ""
+    - id: pair_86463b46e1ea4fc4a94b8b2bb0c5cdc8
+      name: pin
+      value: "6866"
+      description: ""
+    - id: pair_25f63af61cc44840a37606a8d661e35f
+      name: status
+      value: "1"
+      description: ""
+    - id: pair_8219b6755b074233960325081caea2b7
+      name: certificateFile
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/jcampos/my_web_pages/core-facturacion/public/files/010244007735_stag.p12
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_e33421a114a94e718593514c9365a9df
+authentication: {}
+metaSortKey: -1663693053304
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
