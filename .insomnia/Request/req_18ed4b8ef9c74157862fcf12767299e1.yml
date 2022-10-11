@@ -1,9 +1,9 @@
 _id: req_18ed4b8ef9c74157862fcf12767299e1
 type: Request
 parentId: fld_27ad4356c2f14d66856f1a12532ee81d
-modified: 1665412616435
+modified: 1665526913831
 created: 1663705766002
-url: http://localhost:8080/hacienda/auth/
+url: http://localhost:8082/hacienda/auth/
 name: InsertTaxpayerAuth
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: multipart/form-data
   params:
     - name: taxpayerId
-      value: "123456789"
+      value: "102440077"
       id: pair_7e0ef0e6b3094c7a96c17652e08b4248
     - id: pair_d1c2d1f5c319444fa1d166c58d091035
       name: username
@@ -30,12 +30,24 @@ body:
       type: file
       fileName: /Users/jcampos/my_web_pages/core-facturacion/public/files/010244007735_prod.p12
     - id: pair_dbde584408194250aab880e4084a7928
-      name: pin
+      name: certificatePin
       value: "6866"
       description: ""
     - id: pair_83cd5beb64d648edac283629112ecebd
       name: id
-      value: "102440077"
+      value: "123456789"
+      description: ""
+    - id: pair_2642e9be8586414bb64e156dd015964f
+      name: callbackUrl
+      value: http://localhost:8083/validation/email
+      description: ""
+    - id: pair_b4c9290251ad4be29c5b213fae209af6
+      name: notifySentDocuments
+      value: "3"
+      description: ""
+    - id: pair_b7fe790da86c4bce89ecd0fafe3b06b7
+      name: notifyRecievedDocuments
+      value: "true"
       description: ""
 parameters: []
 headers:
