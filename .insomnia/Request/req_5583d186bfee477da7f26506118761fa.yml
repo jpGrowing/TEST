@@ -1,7 +1,7 @@
 _id: req_5583d186bfee477da7f26506118761fa
 type: Request
 parentId: fld_27ad4356c2f14d66856f1a12532ee81d
-modified: 1665521492915
+modified: 1666905908873
 created: 1663705735675
 url: http://localhost:8082/hacienda/auth/102440077
 name: UpdateTaxpayerAuth
@@ -16,15 +16,11 @@ body:
       description: ""
     - id: pair_bd20772fb26549b4be7c889b55844af5
       name: password
-      value: xj|;yPt/.r8o+V2Vhq^
+      value: xj|;yPt/.r8o+V2Vhq^=
       description: ""
     - id: pair_86463b46e1ea4fc4a94b8b2bb0c5cdc8
-      name: pin
+      name: certificatePin
       value: "6866"
-      description: ""
-    - id: pair_25f63af61cc44840a37606a8d661e35f
-      name: status
-      value: "1"
       description: ""
     - id: pair_8219b6755b074233960325081caea2b7
       name: certificateFile
@@ -32,6 +28,23 @@ body:
       description: ""
       type: file
       fileName: /Users/jcampos/my_web_pages/core-facturacion/public/files/010244007735_stag.p12
+      disabled: true
+    - id: pair_c2f34a631bee4f45bb9d9fa04a297d1a
+      name: notifyRecievedDocuments
+      value: "true"
+      description: ""
+    - id: pair_a619ee4b1cfc44209dc6ba56630d7735
+      name: notifySentDocuments
+      value: "3"
+      description: ""
+    - id: pair_52eca4967f30422ab778628da036169b
+      name: callbackUrl
+      value: http://localhost:8085/notification/
+      description: ""
+    - id: pair_566df6c916b74900af4603ba89dfce31
+      name: status
+      value: "1"
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

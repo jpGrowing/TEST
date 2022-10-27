@@ -1,7 +1,7 @@
 _id: req_18ed4b8ef9c74157862fcf12767299e1
 type: Request
 parentId: fld_27ad4356c2f14d66856f1a12532ee81d
-modified: 1665588957278
+modified: 1666890367466
 created: 1663705766002
 url: http://localhost:8082/hacienda/auth/
 name: InsertTaxpayerAuth
@@ -11,7 +11,7 @@ body:
   mimeType: multipart/form-data
   params:
     - name: taxpayerId
-      value: "116640506"
+      value: "102440077"
       id: pair_7e0ef0e6b3094c7a96c17652e08b4248
     - id: pair_d1c2d1f5c319444fa1d166c58d091035
       name: username
@@ -39,7 +39,7 @@ body:
       description: ""
     - id: pair_2642e9be8586414bb64e156dd015964f
       name: callbackUrl
-      value: http://localhost:8083/validation/email
+      value: http://localhost:8085/notification/
       description: ""
     - id: pair_b4c9290251ad4be29c5b213fae209af6
       name: notifySentDocuments
